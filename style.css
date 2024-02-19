@@ -1,0 +1,86 @@
+#pfp-img{
+    border-radius: 50%;
+    margin-top: 10%;
+    width: 50%;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: #1B1A55;
+    border-radius: 2%;
+    height: 100vh;
+    align-items: center;
+    border: solid 1px slategray;
+}
+
+.grid-container{
+    display: grid;
+    height:100vh;
+    gap: 10px;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.main{
+    background-color: #1B1A55;
+    border-radius: 2%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px slategray;
+}
+
+body{
+    background-color: #070F2B;
+}
+h1{
+    color: wheat;
+    font-family: "Raleway", sans-serif;
+}
+
+.contact-info{
+    list-style: none;
+    text-align: center;
+}
+
+li{
+    color: wheat;
+    font-size: larger;
+    font-family: "Raleway", sans-serif;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+hr{
+    width: 100%;
+}
+
+
+.nav-container{
+    background-color: #535C91;
+    align-self: flex-end;
+    display: flex;
+    height: 5%;
+    width: 40%;
+    border-radius: 2%;
+}
+
+.nav-container > a{
+    font-family: "Raleway", sans-serif;
+    text-decoration: none;
+    color: black;
+    width: 40%;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.nav-container a.active{
+    color: whitesmoke;
+    background-color: #070F2B;
+}
+
+.nav-container a:hover{
+    color: whitesmoke;
+    background-color: #070F2B;
+}
