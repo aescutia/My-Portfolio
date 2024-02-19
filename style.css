@@ -2,58 +2,90 @@
     border-radius: 50%;
     margin-top: 10%;
     width: 50%;
+    padding: 0%;
 }
 
-.sidebar{
-    display: flex;
-    flex-direction: column;
-    background-color: #1B1A55;
-    border-radius: 2%;
-    height: 100vh;
-    align-items: center;
-    border: solid 1px slategray;
+#socials{
+    margin-top: 20px;
+    width: 15%;
 }
+
 
 .grid-container{
-    display: grid;
+    display: flex;
+    gap: 35px;
+    /* display: grid;
     height:100vh;
     gap: 10px;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr; */
+}
+
+.sidebar{
+    margin-top: 50px;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #1B1A55;
+    border-radius: 5px;
+    height: 60vh;
+    align-items: center;
+    /* border: solid 1px slategray; */
+    width: 25%;
+    text-align: center;
 }
 
 .main{
+    margin-top: 50px;
     background-color: #1B1A55;
-    border-radius: 2%;
+    border-radius: 5px;
+    margin-right: 5%;
     height: 100vh;
     display: flex;
+    width: 75%;
     flex-direction: column;
-    border: solid 1px slategray;
+    flex: 1;
+    /* border: solid 1px slategray; */
 }
 
 body{
     background-color: #070F2B;
 }
 h1{
-    color: wheat;
+    color: whitesmoke;
     font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    margin: 20px 0px;
+}
+
+h2{
+    color: whitesmoke;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    margin: 2%;
+}
+
+p{
+    color: whitesmoke;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    margin: 2%;
+    line-height: 2;
+    text-indent: 20px;
 }
 
 .contact-info{
     list-style: none;
-    text-align: center;
+    padding: 0%;
+    margin: 0%;
 }
 
-li{
-    color: wheat;
+.contact-info > li{
+    color: whitesmoke;
     font-size: larger;
+    font-weight: 200;
     font-family: "Raleway", sans-serif;
-    margin: 20px 0px;
-    text-align: center;
-}
-
-hr{
-    width: 100%;
+    margin: 10px 0px;
 }
 
 
@@ -62,8 +94,8 @@ hr{
     align-self: flex-end;
     display: flex;
     height: 5%;
-    width: 40%;
-    border-radius: 2%;
+    width: 60%;
+    border-radius: 5px;
 }
 
 .nav-container > a{
@@ -83,4 +115,39 @@ hr{
 .nav-container a:hover{
     color: whitesmoke;
     background-color: #070F2B;
+}
+span{
+    font-weight: bold;
+}
+
+@media (max-width:992px) {
+    #pfp-img{
+        border-radius: 50%;
+        margin-top: 10%;
+        width: 30%;
+        padding: 0%;
+    }
+    .grid-container{
+        flex-direction: column;
+    }
+    .sidebar{
+        width: 100%;
+        margin: 0%;
+        height: 60vh;
+        flex: 1;
+    }
+    .main{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .nav-container{
+        background-color: #535C91;
+        height: 5%;
+        width: 100%;
+        border-radius: 2%;
+        position: fixed;
+        bottom: 0px;
+    }
+    
 }
