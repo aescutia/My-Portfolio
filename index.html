@@ -14,7 +14,7 @@
     <div class="nav-container">
                 <a class="active" href="./index.html">About</a>
                 <a href="./projects.html">Projects</a>
-                <a href="./Resume-Alexis-Escutia.pdf" download="Alexis_Escutia_Resume">Resume</a>
+                <a href="./Resume-Alexis-Escutia.pdf">Resume</a>
                 <a href="#contactme">Contact Me</a>
             </div>
     <div class="flex-container">
@@ -32,41 +32,106 @@
 
         <div class="main">
             
-            <h2 class="section-headers">Welcome to My Website!</h2>
+            <h1 class="section-headers">Welcome to My Website!</h2>
+            <div class="section-dividers"></div>
             <hr/>
-            <p> I am a Computer Science Graduate from the University of Illinois at Chicago</p>
-            <p> Throughout my time at UIC, I took courses ranging from Software Design to Data Science. I've utilized both Java and C++ to develop projects such as a Connect 4
-                clone, a sliding puzzle solver, and a tourist app, to name a few. Through these projects, I have developed a deeper understanding of Data Structures and
-                UI-Development. Feel free to explore my website, and learn a bit about my skils</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+                <h2 class="section-headers">My Skills</h2>
+                <div class="section-dividers"></div>
+                <div class="skills-container">
+                    <div class="skill-items">
+                        <h3 class="skill-headers">Technical:</h3>
+                        <ul class="skill-list">
+                            <li>Object-Oriented Programming</li>
+                            <li>Data Structures</li>
+                            <li>Debugging</li>
+                            <li>Android Development</li>
+                            <li>UI-Design</li>
+                            <li>Data Visualization</li>
+                        </ul>
+                    </div>
+                    <div class="skill-items">
+                        <h3 class="skill-headers">Languages:</h3>
+                        <ul class="skill-list">
+                            <li>Java</li>
+                            <li>Python</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>C++</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </div>
+                    <div class="skill-items">
+                        <h3 class="skill-headers">Soft Skills:</h3>
+                        <ul class="skill-list">
+                            <li>Verbal and Written Communication</li>
+                            <li>Adaptable</li>
+                            <li>Active Listening</li>
+                            <li>Collaboration</li>
+                            <li>Self-Discipline</li>
+                            <li>Work Ethic</li>
+                        </ul>
+                    </div>
+                </div>
             <h2 class="section-headers">My Interests</h2>
+            <div class="section-dividers"></div>
             <hr/>
             <div class="interests-grid">
                 <div class="interest-items">
                     <div class="feature-icon">
                         <img class="icons" src="./assets/computer-svgrepo-com.png">
                     </div>
-                    <h3> Full Stack Development</h3>
+                    <h3 class="interest-headers"> Full Stack Development</h3>
                 </div>
                 <div class="interest-items">
                     <div class="feature-icon">
                         <img class="icons" src="./assets/mobile-svgrepo-com.png">
                     </div>
-                    <h3> Mobile-App Development</h3>
+                    <h3 class="interest-headers"> Mobile-App Development</h3>
                 </div>
                 <div class="interest-items">
                     <div class="feature-icon">
                         <img class="icons" src="./assets/gear-svgrepo-com.png">
                     </div>
-                    <h3>Web Devlopment</h3>
+                    <h3 class="interest-headers">Software Engineering</h3>
                 </div>
                 <div class="interest-items">
                     <div class="feature-icon">
                         <img class="icons" src="./assets/security-2-svgrepo-com.png">
                     </div>
-                    <h3> Cyber Security</h3>
+                    <h3 class="interest-headers"> Cyber Security</h3>
                 </div>
             </div>
+            <h2 class="section-headers">Work Experience</h2>
+            <div class="section-dividers"></div>
+            <div class="exp-container">
+                <h3 class="exp-headers">Solutions Engineer Intern</h3>
+                <h4>June 2021 - August 2021</h4>
+                <ul class="exp-list">
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                </ul>
+                <h3 class="exp-headers">Software Engineer Intern</h3>
+                <h4>July 2020 - August 2020</h4>
+                <ul class="exp-list">
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                    <li>lorem</li>
+                </ul>
+            </div>
+            <button id="resume-btn">Download My Resume</button>
         </div>
     </div>
+    
+    <script>
+        document.getElementById("resume-btn").onclick = function () {
+            location.href = "./Resume-Alexis-Escutia.pdf";
+        };
+    </script>
 </body>
 </html>
