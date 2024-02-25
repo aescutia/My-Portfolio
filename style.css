@@ -28,12 +28,12 @@ h1{
 }
 
 h4{
-    color: black;
+    color: #9290C3;
     font-family: "Raleway", sans-serif;
     font-weight: 400;
     font-size: large;
     font-style: italic;
-    margin: 0% 10%;
+    margin: 0% 5%;
 }
 
 .section-dividers{
@@ -92,11 +92,6 @@ p{
     text-indent: 20px;
 }
 
-hr{
-    margin-left: 20px;
-}
-
-
 .flex-container{
     display: flex;
     gap: 100px;
@@ -136,11 +131,11 @@ hr{
 }
 
 .skill-items{
-    background-color: #9290C3;
+    /* background-color: #9290C3; */
     height: 40%;
     margin: 15px;
     border-radius: 60px;
-    box-shadow: -10px 10px;
+    /* box-shadow: -10px 10px; */
 }
 
 .skill-list{
@@ -163,7 +158,7 @@ hr{
     list-style: none;
     padding: 0%;
     margin: 0%;
-    margin: 3% 10%;
+    margin: 0% 10%;
 }
 
 .exp-list> li{
@@ -243,7 +238,7 @@ hr{
     display: flex;
     flex-direction: column;
     height: 500px;
-    background-color: aquamarine;
+    background-color: whitesmoke;
 }
 
 .nav-container a.active{
@@ -345,7 +340,20 @@ span{
 
     #resume-btn{
         width: 45%;
+        margin-top: 10px;
         margin-bottom: 100px;
     }
     
+    .exp-container{
+        height: auto;
+    }
+}
+
+@media (max-width:556px) {
+    .sidebar{
+        width: 90%;
+    }
+    .interest-headers{
+        font-size: 0.8rem;
+    }
 }
